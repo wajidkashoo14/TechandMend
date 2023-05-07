@@ -3,9 +3,9 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <nav className="h-24 px-40 flex items-center text-[#fff] bg-[#47f] overflow-x-hidden">
+    <nav className="h-20 px-40 flex items-center text-[#fff] bg-[#47f] overflow-x-hidden">
       <div>
-        <ul className="flex gap-10 text-xl cursor-pointer">
+        <ul className="flex gap-10 text-lg cursor-pointer">
           <li>
             <Link href="/">Home</Link>
           </li>

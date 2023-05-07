@@ -14,7 +14,7 @@ function Categories() {
               <div className="text-3xl w-36 flex justify-center items-center text-[#fff] bg-[#2A7AFD] p-4">{image}</div>
               <div className="p-3">
                 <h2 className="text-center text-lg font-semibold mb-2">{title}</h2>
-                <p className="text-left text-[15px] text-[#a3968d]">{discription}</p>
+                <p className="text-left text-[15px] text-[#646881]">{discription}</p>
               </div>
             </article>
           );
