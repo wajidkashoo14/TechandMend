@@ -3,6 +3,7 @@ import Categories from "@/components/Categories";
 import styles from "../styles/hero.module.css";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Details from "@/components/Details";
+import Contactus from "@/components/Contactus";
 
 export default function Home() {
   return (
@@ -18,7 +19,8 @@ export default function Home() {
       <RepairTypes />
       <Categories />
       <WhyChooseUs />
-    <Details />
+      <Details />
+      <Contactus />
     </>
   );
 }
