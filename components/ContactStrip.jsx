@@ -7,7 +7,7 @@ function ContactStrip() {
     <section className="flex justify-evenly items-center h-28">
       <Link href="/" className="flex items-center gap-1">
         <Image src="/nav.png" alt="repair shop logo" width={50} height={100} />
-        <h2 className="text-md font-bold ">TECH&MEND</h2>
+        <h2 className="text-md font-semibold ">TECH&MEND</h2>
       </Link>
 
       <div>

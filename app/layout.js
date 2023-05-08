@@ -3,6 +3,7 @@ import ContactStrip from '@/components/ContactStrip'
 import './globals.css'
 import { Montserrat } from 'next/font/google'
 import Navbar from '@/components/Nav'
+import Footer from '@/components/Footer'
 
 const Mont = Montserrat({ subsets: ['latin'] })
 
@@ -18,6 +19,7 @@ export default function RootLayout({ children }) {
        <ContactStrip />
        <Navbar />
         {children}
+        <Footer />
         </body>
     </html>
   )
