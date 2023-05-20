@@ -7,19 +7,26 @@ import { AiOutlineTwitter } from 'react-icons/ai'
 function Footer() {
   return (
     <section className='h-200px w-full flex justify-evenly items-center py-20 bg-[#EEF1F3]'>
-        <div className='w-64'>
-            <h2 className='font-semibold mb-3'>TECHANDMEND</h2>
+        <div className='w-72'>
+            <h2 className='font-semibold mb-3'>TECH AND MEND</h2>
             <p className='text-sm text-left'>Tech and Mend is your one-stop repair shop for all your tech needs. From smartphones and iPhones to tablets, desktops, and laptops, we specialize in expert repairs. Our skilled technicians ensure quick and reliable service, restoring your devices to their optimal functionality.</p>
         </div>
-        <div className='w-44 mb-2'>
-            <h2 className='font-semibold'>OUR SERVICES</h2>
-            <span className='w-42'>Smart Phone Repair</span>
+        <div className='w-60 mb-5'>
+            <h2 className='font-semibold mb-2'>OUR SERVICES</h2>
+            <ul className='flex flex-col gap-1'>
+                <li>Smart Phone Repair</li>
+                <li>Tablets and iPad Repair</li>
+                <li>Desktop and Laptop Repair</li>
+                <li>Data Recovery</li>
+                <li>Data Transfer</li>
+            </ul>
+            {/* <span className='w-42'>Smart Phone Repair</span>
             <span>Tablets and iPad Repair</span>
             <span>Desktop and Laptop Repair</span>
             <span>Data Recovery</span>
-            <span>Data Transfer</span>
+            <span>Data Transfer</span> */}
         </div>
-        <div className='w-52 mb-5'>
+        <div className='w-64 mb-4'>
             <h2 className='mb-4 font-semibold'>
                 SUBSCRIBE US
             </h2>
@@ -32,8 +39,8 @@ function Footer() {
                 <AiOutlineTwitter />
             </div>
         </div>
-        <div className='w-56 mb-4'>
-            <h2 className='font-semibold'>CONTACT INFO</h2>
+        <div className='w-52 mb-4'>
+            <h2 className='font-semibold mb-2'>CONTACT INFO</h2>
             <div>
                 <div className='text-[13px]'>
                     <h3 className='font-semibold'>4 Tickhill Rd, Maltby</h3>
