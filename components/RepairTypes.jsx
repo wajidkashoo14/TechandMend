@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function RepairTypes() {
   return (
-    <section className="flex items-center justify-evenly h-[100vh] mt-[55vh] bg-[#EEF1F3]">
+    <section className="flex items-center justify-evenly h-[100vh] mt-[50vh] bg-[#EEF1F3]">
       {data.map((repairType) => {
         const { id, title, image, discription } = repairType;
         return (
