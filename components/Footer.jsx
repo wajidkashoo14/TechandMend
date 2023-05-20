@@ -20,18 +20,14 @@ function Footer() {
                 <li>Data Recovery</li>
                 <li>Data Transfer</li>
             </ul>
-            {/* <span className='w-42'>Smart Phone Repair</span>
-            <span>Tablets and iPad Repair</span>
-            <span>Desktop and Laptop Repair</span>
-            <span>Data Recovery</span>
-            <span>Data Transfer</span> */}
         </div>
         <div className='w-64 mb-4'>
             <h2 className='mb-4 font-semibold'>
                 SUBSCRIBE US
-            </h2>
+            </h2>   
+            
             <h5 className='text-sm my-2'>Subscribe to our newsletter!</h5>
-            <input type='email' placeholder='Enter your email' className='p-1' />
+            <input type='email' placeholder='Enter your email' className='px-2 py-1' />
             <p className='text-[10px] mt-2 focus:outline-none'>We don't do mail to spam and your mail id is confidential</p>
             <div className='flex gap-5 items-center cursor-pointer mt-6'>
                 <FaFacebookF />
